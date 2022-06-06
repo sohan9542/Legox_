@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Fipps;
+  src: url(./font/fipps.otf);
+}
+@font-face {
+  font-family: Osa;
+  src: url(./font/osa.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn-primary {
+  font-family: 'Fipps', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-right: 8px;
+  padding-left: 8px;
+  border: none;
+  font-size: 1.4rem;
+  background-color: #e10814;
+  color: #FBD900;
+  border-left: 8px solid #91030a;
+  border-top: 8px solid #be000a;
+  border-right: 8px solid #6e0409;
+  border-bottom: 8px solid #6e0409;
+  cursor: pointer;
+}
+.btn-primary-sm {
+  font-family: 'Fipps', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border: none;
+  font-size: 1.4rem;
+  background-color: #e10814;
+  color: #FBD900;
+  border-left: 8px solid #91030a;
+  border-top: 8px solid #be000a;
+  border-right: 8px solid #6e0409;
+  border-bottom: 8px solid #6e0409;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  border-right: 8px solid #91030a;
+  border-bottom: 8px solid #be000a;
+  border-left: 8px solid #6e0409;
+  border-top: 8px solid #6e0409;
+}
+
+.btn-primary-sm:hover {
+  border-right: 8px solid #91030a;
+  border-bottom: 8px solid #be000a;
+  border-left: 8px solid #6e0409;
+  border-top: 8px solid #6e0409;
+}
+.text_osa{
+  font-family: Osa!important;
+}
+p{
+  font-family: Osa!important;
+}
+
+.custom_animation{
+  transition: 1s linear all;
+  height: 500px;
+}
